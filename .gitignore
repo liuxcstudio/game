@@ -7,3 +7,5 @@ assets/
 Thumbs.db
 node_modules/
 .venv/
+.version-dev
+.version-game
