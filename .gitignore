@@ -9,3 +9,4 @@ node_modules/
 .venv/
 .version-dev
 .version-game
+.local-version
