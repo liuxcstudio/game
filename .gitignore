@@ -1,9 +1,0 @@
-# 大资源文件（从S3另行下载）
-assets/
-*.7z
-
-# 系统文件
-.DS_Store
-Thumbs.db
-node_modules/
-.venv/
