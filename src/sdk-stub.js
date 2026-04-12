@@ -1,5 +1,5 @@
 /**
- * SDK Stub Layer - 打工生活模拟器 优化版 v2.1.9
+ * SDK Stub Layer - 打工生活模拟器 优化版 v2.2.0
  *
  * 优化项:
  * - 合并 XHR 拦截器（减少原型覆盖次数）
@@ -69,7 +69,7 @@ window.jsb.AssetsManager = function () {
             }, 50);
         },
         getManifest: function () { return null; },
-        getLocalManifest: function () { return { getVersion: function () { return '2.1.9'; } }; },
+        getLocalManifest: function () { return { getVersion: function () { return '2.2.0'; } }; },
         setVerifyCallback: function () {},
         loadLocalManifest: function () { return true; },
         checkUpdate: function () {},
@@ -366,5 +366,5 @@ if (typeof screen !== 'undefined' && !screen.orientation) {
 })();
 
 // Console branding
-console.log('%c 打工生活模拟器 优化版 v2.1.9 ',
+console.log('%c 打工生活模拟器 优化版 v2.2.0 ',
     'background:#4CAF50;color:white;font-size:16px;padding:8px 16px;border-radius:4px;');

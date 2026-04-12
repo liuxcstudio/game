@@ -1,5 +1,5 @@
 /**
- * main.js - 打工生活模拟器 优化版 v2.1.9
+ * main.js - 打工生活模拟器 优化版 v2.2.0
  *
  * 优化项:
  * - 加载防卡死（超时检测 + 强制推进）
@@ -415,7 +415,7 @@ function initSaveManager() {
     document.getElementById('btn-export-save').addEventListener('click', function () {
         var saves = getGameSaves();
         if (!Object.keys(saves).length) { setStatus('没有存档'); return; }
-        var data = JSON.stringify({ version: '2.1.9', date: new Date().toISOString(), saves: saves });
+        var data = JSON.stringify({ version: '2.2.0', date: new Date().toISOString(), saves: saves });
         var blob = new Blob([data], { type: 'application/json' });
         var a = document.createElement('a');
         a.href = URL.createObjectURL(blob);
