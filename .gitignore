@@ -1,12 +1,44 @@
-# 大资源文件（从S3另行下载）
-assets/
-*.7z
+```
+# Build artifacts
+*.js
+*.css
+*.ico
+*.png
 
-# 系统文件
+# Dependencies
+node_modules/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Distribution and build folders
+dist/
+build/
+target/
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# System files
 .DS_Store
 Thumbs.db
-node_modules/
-.venv/
-.version-dev
-.version-game
-.local-version
+```
